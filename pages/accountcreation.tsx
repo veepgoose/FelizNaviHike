@@ -8,6 +8,7 @@ function Accountcreation() {
         email:"",
         password:"",
         username:"",
+        name:"",
         surname:"",
         location:"",
         imageUrl:"",
@@ -41,8 +42,8 @@ function Accountcreation() {
          />
 
         <Input 
-          placeholder="Username"
-          type="Username"
+          placeholder="Name"
+          type="Name"
          />
 
         <Input 
