@@ -11,7 +11,7 @@ export function Walkcard(props:{
         
         <Link href={`/walkpage/${props.id}`} className='flex flex-col items-center'> 
             <div className="rounded-lg overflow-hidden ">
-            <img className="h-32 w-full" src={props.image} alt="walk" />
+            <img className="h-32 w-80 object-cover" src={props.image} alt="walk" />
             </div>
             <h3 className='w-full truncate'>{props.name}</h3>
             <p>{new Intl.DateTimeFormat('en-GB').format(new Date(props.date))}</p>
