@@ -1,3 +1,3 @@
 export default function Page() {
-  return <h1>Hello, this is the login page!</h1>
+  return <h1>Hello, this is our login page</h1>
 }
