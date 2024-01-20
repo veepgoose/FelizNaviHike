@@ -13,26 +13,27 @@ const LoginForm: React.FC = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label>
-        Email:
-        <input
+    <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+        
+        <input className="bg-pigment_green text-seasalt placeholder-seasalt/60 p-2 shadow-lg"
+          placeholder="Email"
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-      </label>
-      <br />
-      <label>
-        Password:
-        <input
+     
+     
+      
+        
+        <input className="bg-pigment_green text-seasalt placeholder-seasalt/60 p-2 shadow-lg"
+          placeholder="Password"
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-      </label>
-      <br />
-      <button type="submit">Login</button>
+      
+     
+      <button className="bg-fire_engine_red p-2 shadow-lg rounded-lg" type="submit">Login</button>
     </form>
   );
 };
