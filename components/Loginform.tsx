@@ -2,17 +2,20 @@
 import React, { useState, FormEvent } from 'react';
 import { Input } from './Input';
 import { Button } from './Button';
+import { useRouter } from 'next/router';
 
 
 function LoginForm() {
+  const router = useRouter();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    // Here, you can add your authentication logic
+    
     console.log('Email:', email);
     console.log('Password:', password);
+    router.push('/dashboard');
   };
 
   return (

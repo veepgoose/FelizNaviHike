@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <body className="bg-sea_green text-seasalt " >
-        <div className="p-6 container mx-auto">
+        <div className="p-6 max-w-sm mx-auto">
           <Main />
         </div>
         <NextScript />
