@@ -4,8 +4,8 @@ import { walks } from "../data/walks";
 export default function Page() {
     return (
       <>
-    <h1>Hello, this is our winter walks dashboard</h1>
-    <div className="grid grid-cols-2 gap-4">
+    <h1 className="uppercase font-sans text-center text-2xl">upcoming walks</h1>
+    <div className="mt-4 grid grid-cols-2 gap-4">
     {walks.map((walk) => (
       <Walkcard
       key={walk.id}
