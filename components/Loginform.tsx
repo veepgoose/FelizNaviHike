@@ -3,7 +3,7 @@ import React, { useState, FormEvent } from 'react';
 import { Input } from './Input';
 import { Button } from './Button';
 import { useRouter } from 'next/router';
-
+import Link from "next/link";
 
 function LoginForm() {
   const router = useRouter();
@@ -38,7 +38,7 @@ function LoginForm() {
 
       
       <Button type="submit">Login</Button>
-      <Button type="submit">Signup</Button>
+      <Link href="/accountcreation" className="text-center">Signup</Link>
     </form>
   );
 }

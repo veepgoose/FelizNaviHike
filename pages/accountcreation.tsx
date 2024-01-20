@@ -1,6 +1,8 @@
 import { Button } from "@/components/Button";
 import { Input } from "@/components/Input";
 import { FormEvent, useState } from "react";
+import Link from "next/link";
+
 
 
 function Accountcreation() {
@@ -65,7 +67,7 @@ function Accountcreation() {
           type="ImageUrl"
          />
         
-        <Button type="submit">Create Profile</Button>
+        <Link href="/profile" className="bg-fire_engine_red p-2 shadow-lg rounded-lg text-center">Create Profile</Link>
       </form>
     );
   }
