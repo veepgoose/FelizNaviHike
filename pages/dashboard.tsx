@@ -19,6 +19,9 @@ export default function Page() {
      
     ))}
     </div>
+    <div className="flex mt-8 justify-center">
+    <Link href="/" className="bg-fire_engine_red p-2 shadow-lg rounded-lg text-center">Sign Out</Link>
+    </div> 
     </>
     )
   }
