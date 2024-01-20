@@ -12,6 +12,7 @@ export default function Page() {
         name={walk.name}
         date={walk.datetime}
         image={walk.imageUrl}
+        id={walk.id}
         >
         </Walkcard>
      
