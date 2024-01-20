@@ -1,3 +1,4 @@
+export const users =
 [
   {
     "id": "cf4a3920-7104-4c22-ac30-95b827a7d01f",

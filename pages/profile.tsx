@@ -1,3 +1,13 @@
+import { useRouter } from "next/router";
+
+import { walks } from "@/data/walks";
+import { Profile } from "@/components/Profile";
+import { users } from "@/data/users";
+
 export default function Page() {
-    return <h1>Hello, this is the profile page!</h1>
-  }
+ 
+
+  return (
+    <Profile {...users[0]}/> 
+  );
+}
