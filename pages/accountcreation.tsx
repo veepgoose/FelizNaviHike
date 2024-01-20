@@ -6,6 +6,8 @@ import { FormEvent, useState } from "react";
 function Accountcreation() {
     const [user, setUser] = useState({
         email:"",
+
+        
         password:"",
         username:"",
         name:"",
