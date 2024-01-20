@@ -29,7 +29,7 @@ function Accountcreation() {
   
     return (
       <form  className="flex flex-col gap-4">
-        <h2 className="font-[1rem]"> Signup </h2>
+        <h2 className="font-[1rem] text-center"> Signup </h2>
         <Input 
           placeholder="Email"
           type="email" 

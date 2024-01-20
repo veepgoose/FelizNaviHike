@@ -1,4 +1,6 @@
+import Link from "next/link"
 import {Button} from"./Button"
+
 export const Profile = (props: {id: string, firstName: string, lastName: string, location: string, imageUrl: string, bio: string}) => {
     return (
         <div className="p-4 py-8 flex flex-col gap-4 items-center">
@@ -10,7 +12,8 @@ export const Profile = (props: {id: string, firstName: string, lastName: string,
             <h2 className="text-xl">
                 <strong>Location:</strong> {props.location}
             </h2>
-           <Button>View Upcoming Walks</Button>
+            <Link href="/dashboard" className="bg-fire_engine_red p-2 shadow-lg rounded-lg text-center">View Upcoming Walks</Link>
+           
         </div>
     )
 }

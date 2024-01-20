@@ -1,5 +1,6 @@
 import {Walkcard} from '../components/Walkcard'
 import { walks } from "../data/walks";
+import Link from "next/link";
 
 export default function Page() {
     return (
