@@ -4,8 +4,10 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body className="bg-sea_green text-seasalt" >
-        <Main />
+      <body className="bg-sea_green text-seasalt " >
+        <div className="px-6 container mx-auto">
+          <Main />
+        </div>
         <NextScript />
       </body>
     </Html>
