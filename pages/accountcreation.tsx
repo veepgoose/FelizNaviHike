@@ -18,14 +18,6 @@ function Accountcreation() {
         imageUrl:"",
         bio:""
     });
-   
-  
-    const handleSubmit = (e: FormEvent) => {
-      e.preventDefault();
-      // Here, you can add your authentication logic
-      console.log('Email:', email);
-      console.log('Password:', password);
-    };
   
     return (
       <form  className="flex flex-col gap-4">
